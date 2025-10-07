@@ -38,7 +38,7 @@ This library is based on the [official Bosch-BME68x-Library fork](https://github
 Add this line to your `platformio.ini`:
 ```ini
 lib_deps = 
-    https://github.com/UNIT-Electronics-MX/unit_bm68x_library
+    https://github.com/UNIT-Electronics-MX/unit_bme68x_library
 ```
 
 ## Examples Included
