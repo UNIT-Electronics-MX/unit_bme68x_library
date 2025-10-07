@@ -1,5 +1,6 @@
 #######################################
 #        BME68x Keywords              #
+#     UNIT Electronics Edition        #
 #######################################
 
 #######################################
@@ -38,6 +39,16 @@ intfError	KEYWORD2
 checkStatus KEYWORD2
 statusString	KEYWORD2
 
+# UNIT Electronics Extensions
+calculateIAQ	KEYWORD2
+calibrateGasBaseline	KEYWORD2
+getIAQLevel	KEYWORD2
+hasSignificantChange	KEYWORD2
+blinkStatusLED	KEYWORD2
+setupBoardConfig	KEYWORD2
+configureSensorForBoard	KEYWORD2
+displaySensorData	KEYWORD2
+
 #######################################
 # Constants (LITERAL1)                #
 #######################################
@@ -47,12 +58,27 @@ BME68X_FORCED_MODE	LITERAL1
 BME68X_PARALLEL_MODE	LITERAL1
 BME68X_SEQUENTIAL_MODE	LITERAL1
 
+# I2C Addresses
+BME68X_I2C_ADDR_LOW	LITERAL1
+BME68X_I2C_ADDR_HIGH	LITERAL1
+
+# Status Masks
+BME68X_NEW_DATA_MSK	LITERAL1
+BME68X_GASM_VALID_MSK	LITERAL1
+BME68X_HEAT_STAB_MSK	LITERAL1
+
+# UNIT Electronics Board Definitions
+UNIT_ESP32	LITERAL1
+UNIT_ESP32S3	LITERAL1
+UNIT_ESP32C3	LITERAL1
+
 #######################################
 # Structures (KEYWORD3)               #
 #######################################
-
 
 bme68xData	KEYWORD3
 bme68xDev   KEYWORD3
 bme68xConf  KEYWORD3
 bme68xHeatrConf KEYWORD3
+BoardConfig	KEYWORD3
+rtc_data_t	KEYWORD3
