@@ -1,0 +1,57 @@
+# Arduino Library gitignore
+
+# Compiled files
+*.o
+*.a
+*.so
+*.hex
+*.elf
+*.bin
+*.map
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.tmp
+*.temp
+
+# Tools and binaries (like arduino-lint)
+bin/
+tools/
+
+# Log files
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Test files
+test_results/
+*.test

@@ -1,10 +1,10 @@
 {
-  "name": "BME68x Sensor library - UNIT Electronics",
-  "description": "BME680 and BME688 sensor library optimized for UNIT Electronics boards including TouchDot S3, Pulsar ESP32-C6, and DualMCU series. Based on Bosch Sensortec official library with enhanced compatibility and additional examples.",
-  "homepage": "https://github.com/UNIT-Electronics-MX/unit_bm68x_library",
+  "name": "BME68x_UNIT_Electronics",
+  "description": "BME680 and BME688 sensor optimized for UNIT Electronics boards including TouchDot S3, Pulsar ESP32-C6, and DualMCU series. Based on Bosch Sensortec official library with enhanced compatibility and additional examples.",
+  "homepage": "https://github.com/UNIT-Electronics-MX/unit_bme68x_library",
   "repository": {
     "type": "git",
-    "url": "https://github.com/UNIT-Electronics-MX/unit_bm68x_library"
+    "url": "https://github.com/UNIT-Electronics-MX/unit_bme68x_library"
   },
   "version": "1.4.0",
   "authors": [
